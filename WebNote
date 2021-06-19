@@ -1,0 +1,7 @@
+Session: 1 file dữ liệu được lưu ở phía server chứa các thông tin mà user ở phiên làm việc đó đang thực hiện vd như ( tên người dùng , món hàng chưa mua ...) và có một thời hạn sử dụng
+nhất định kể từ resquest cuối cùng.
+Cookie: 1 dữ liệu được lưu ở phía client, có 2 loại cookie ( session cookie và cookie thường , session cookie thì khi đóng trình duyệt cookie này sẽ bị hủy)
+Cookie sẽ được tự động gửi kèm theo request của server tạo ra nó. cookie có giới hạn lưu trữ nhỏ
+
+Cơ chế session-cookie : dùng cookie để lưu sesionID : Server sẽ matching id mà có trong cookie để xem user  này có tồn tại hay không.
+
